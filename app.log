@@ -1,0 +1,695 @@
+2019-06-10 09:08:40,379 INFO com.beitech.test.BeitechTestApplication [main] Starting BeitechTestApplication on DESKTOP-54R6VJ6 with PID 388 (C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test\target\classes started by Carlos in C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test)
+2019-06-10 09:08:40,385 INFO com.beitech.test.BeitechTestApplication [main] No active profile set, falling back to default profiles: default
+2019-06-10 09:08:45,243 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-06-10 09:08:45,245 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-10 09:08:45,612 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-06-10 09:08:46,150 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-06-10 09:08:51,971 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-06-10 09:08:52,079 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-10 09:08:52,211 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-10 09:08:52,219 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-06-10 09:08:52,543 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-10 09:08:52,959 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-10 09:08:53,409 WARN org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.beitech.test.model.CustomerProductId
+2019-06-10 09:08:53,410 WARN org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.beitech.test.model.CustomerProductId
+2019-06-10 09:08:56,787 INFO com.beitech.test.BeitechTestApplication [main] Started BeitechTestApplication in 17.677 seconds (JVM running for 19.72)
+2019-06-10 09:14:35,890 INFO com.beitech.test.BeitechTestApplication [main] Starting BeitechTestApplication on DESKTOP-54R6VJ6 with PID 15720 (C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test\target\classes started by Carlos in C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test)
+2019-06-10 09:14:35,926 INFO com.beitech.test.BeitechTestApplication [main] No active profile set, falling back to default profiles: default
+2019-06-10 09:14:39,748 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-06-10 09:14:39,767 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-10 09:14:40,124 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-06-10 09:14:40,508 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-06-10 09:14:42,847 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-06-10 09:14:43,021 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-10 09:14:43,158 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-10 09:14:43,163 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-06-10 09:14:43,500 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-10 09:14:43,950 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-10 09:14:44,414 WARN org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.beitech.test.model.CustomerProductId
+2019-06-10 09:14:44,415 WARN org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.beitech.test.model.CustomerProductId
+2019-06-10 09:14:47,815 ERROR org.apache.catalina.util.LifecycleBase [main] Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.beitech.test.BeitechTestApplication.main(BeitechTestApplication.java:13)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:239)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1116)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1202)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-06-10 09:14:47,851 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2019-06-10 09:14:47,912 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2019-06-10 09:14:47,945 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2019-06-10 09:14:48,495 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2019-06-10 09:15:26,756 INFO com.beitech.test.BeitechTestApplication [main] Starting BeitechTestApplication on DESKTOP-54R6VJ6 with PID 15820 (C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test\target\classes started by Carlos in C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test)
+2019-06-10 09:15:26,801 INFO com.beitech.test.BeitechTestApplication [main] No active profile set, falling back to default profiles: default
+2019-06-10 09:15:30,480 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-06-10 09:15:30,483 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-10 09:15:30,711 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-06-10 09:15:31,160 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-06-10 09:15:33,516 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-06-10 09:15:33,628 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-10 09:15:33,779 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-10 09:15:33,784 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-06-10 09:15:34,058 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-10 09:15:34,447 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-10 09:15:34,915 WARN org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.beitech.test.model.CustomerProductId
+2019-06-10 09:15:34,917 WARN org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.beitech.test.model.CustomerProductId
+2019-06-10 09:15:38,223 INFO com.beitech.test.BeitechTestApplication [main] Started BeitechTestApplication in 12.643 seconds (JVM running for 14.374)
+2019-06-10 09:16:29,908 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-10 09:16:30,490 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-2] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 09:37:39,135 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2019-06-10 09:37:39,167 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2019-06-10 09:37:56,463 INFO com.beitech.test.BeitechTestApplication [main] Starting BeitechTestApplication on DESKTOP-54R6VJ6 with PID 5968 (C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test\target\classes started by Carlos in C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test)
+2019-06-10 09:37:56,475 INFO com.beitech.test.BeitechTestApplication [main] No active profile set, falling back to default profiles: default
+2019-06-10 09:37:59,982 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-06-10 09:37:59,984 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-10 09:38:00,264 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-06-10 09:38:00,576 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-06-10 09:38:02,975 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-06-10 09:38:03,075 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-10 09:38:03,196 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-10 09:38:03,199 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-06-10 09:38:03,491 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-10 09:38:03,853 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-10 09:38:04,427 WARN org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.beitech.test.model.CustomerProductId
+2019-06-10 09:38:04,428 WARN org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.beitech.test.model.CustomerProductId
+2019-06-10 09:38:08,046 INFO com.beitech.test.BeitechTestApplication [main] Started BeitechTestApplication in 12.677 seconds (JVM running for 14.212)
+2019-06-10 09:38:12,893 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-10 09:38:13,514 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-2] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 09:39:00,809 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2019-06-10 09:39:00,849 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2019-06-10 09:39:33,056 INFO com.beitech.test.BeitechTestApplication [main] Starting BeitechTestApplication on DESKTOP-54R6VJ6 with PID 10580 (C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test\target\classes started by Carlos in C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test)
+2019-06-10 09:39:33,063 INFO com.beitech.test.BeitechTestApplication [main] No active profile set, falling back to default profiles: default
+2019-06-10 09:39:36,678 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-06-10 09:39:36,682 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-10 09:39:37,079 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-06-10 09:39:37,424 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-06-10 09:39:39,879 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-06-10 09:39:39,972 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-10 09:39:40,085 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-10 09:39:40,088 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-06-10 09:39:40,334 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-10 09:39:40,718 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-10 09:39:41,127 WARN org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.beitech.test.model.CustomerProductId
+2019-06-10 09:39:41,129 WARN org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.beitech.test.model.CustomerProductId
+2019-06-10 09:39:44,189 INFO com.beitech.test.BeitechTestApplication [main] Started BeitechTestApplication in 12.118 seconds (JVM running for 13.716)
+2019-06-10 09:39:52,983 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-10 09:39:53,897 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-2] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 09:43:40,031 INFO com.beitech.test.BeitechTestApplication [main] Starting BeitechTestApplication on DESKTOP-54R6VJ6 with PID 3140 (C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test\target\classes started by Carlos in C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test)
+2019-06-10 09:43:40,038 INFO com.beitech.test.BeitechTestApplication [main] No active profile set, falling back to default profiles: default
+2019-06-10 09:43:43,289 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-06-10 09:43:43,294 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-10 09:43:43,584 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-06-10 09:43:43,992 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-06-10 09:43:46,227 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-06-10 09:43:46,332 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-10 09:43:46,448 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-10 09:43:46,450 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-06-10 09:43:46,694 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-10 09:43:47,086 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-10 09:43:47,485 WARN org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.beitech.test.model.CustomerProductId
+2019-06-10 09:43:47,487 WARN org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.beitech.test.model.CustomerProductId
+2019-06-10 09:43:50,518 ERROR org.apache.catalina.util.LifecycleBase [main] Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.beitech.test.BeitechTestApplication.main(BeitechTestApplication.java:13)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:239)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1116)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1202)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-06-10 09:43:50,542 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2019-06-10 09:43:50,581 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2019-06-10 09:43:50,613 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2019-06-10 09:43:50,851 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2019-06-10 09:44:17,242 INFO com.beitech.test.BeitechTestApplication [main] Starting BeitechTestApplication on DESKTOP-54R6VJ6 with PID 7316 (C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test\target\classes started by Carlos in C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test)
+2019-06-10 09:44:17,254 INFO com.beitech.test.BeitechTestApplication [main] No active profile set, falling back to default profiles: default
+2019-06-10 09:44:20,690 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-06-10 09:44:20,691 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-10 09:44:20,923 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-06-10 09:44:21,256 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-06-10 09:44:23,484 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-06-10 09:44:23,584 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-10 09:44:23,695 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-10 09:44:23,698 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-06-10 09:44:23,950 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-10 09:44:24,302 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-10 09:44:24,825 WARN org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.beitech.test.model.CustomerProductId
+2019-06-10 09:44:24,828 WARN org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.beitech.test.model.CustomerProductId
+2019-06-10 09:44:28,263 INFO com.beitech.test.BeitechTestApplication [main] Started BeitechTestApplication in 12.081 seconds (JVM running for 13.607)
+2019-06-10 09:44:41,539 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-10 09:49:26,925 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-4] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 09:49:27,959 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-4] SQL Error: 1048, SQLState: 23000
+2019-06-10 09:49:27,967 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-4] Column 'product_description' cannot be null
+2019-06-10 09:49:28,494 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-4] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.transaction.UnexpectedRollbackException: Transaction silently rolled back because it has been marked as rollback-only] with root cause
+org.springframework.transaction.UnexpectedRollbackException: Transaction silently rolled back because it has been marked as rollback-only
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:755)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:714)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:534)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:305)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.beitech.test.service.imp.OrderServiceImp$$EnhancerBySpringCGLIB$$473f60c1.createOrder(<generated>)
+	at com.beitech.test.controller.OrderController.createOrder(OrderController.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-06-10 10:06:33,588 INFO com.beitech.test.BeitechTestApplication [main] Starting BeitechTestApplication on DESKTOP-54R6VJ6 with PID 12324 (C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test\target\classes started by Carlos in C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test)
+2019-06-10 10:06:33,595 INFO com.beitech.test.BeitechTestApplication [main] No active profile set, falling back to default profiles: default
+2019-06-10 10:06:37,202 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-06-10 10:06:37,205 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-10 10:06:37,516 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-06-10 10:06:37,877 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-06-10 10:06:40,246 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-06-10 10:06:40,361 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-10 10:06:40,480 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-10 10:06:40,482 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-06-10 10:06:40,716 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-10 10:06:41,101 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-10 10:06:41,548 WARN org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.beitech.test.model.CustomerProductId
+2019-06-10 10:06:41,551 WARN org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.beitech.test.model.CustomerProductId
+2019-06-10 10:06:44,945 ERROR org.apache.catalina.util.LifecycleBase [main] Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.beitech.test.BeitechTestApplication.main(BeitechTestApplication.java:13)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:239)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1116)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1202)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-06-10 10:06:44,988 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2019-06-10 10:06:45,055 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2019-06-10 10:06:45,103 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2019-06-10 10:06:45,902 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2019-06-10 10:07:10,689 INFO com.beitech.test.BeitechTestApplication [main] Starting BeitechTestApplication on DESKTOP-54R6VJ6 with PID 16056 (C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test\target\classes started by Carlos in C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test)
+2019-06-10 10:07:10,696 INFO com.beitech.test.BeitechTestApplication [main] No active profile set, falling back to default profiles: default
+2019-06-10 10:07:14,255 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-06-10 10:07:14,258 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-10 10:07:14,624 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-06-10 10:07:14,926 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-06-10 10:07:17,285 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-06-10 10:07:17,398 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-10 10:07:17,504 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-10 10:07:17,507 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-06-10 10:07:17,743 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-10 10:07:18,112 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-10 10:07:18,551 WARN org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.beitech.test.model.CustomerProductId
+2019-06-10 10:07:18,553 WARN org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.beitech.test.model.CustomerProductId
+2019-06-10 10:07:21,481 INFO com.beitech.test.BeitechTestApplication [main] Started BeitechTestApplication in 11.92 seconds (JVM running for 13.767)
+2019-06-10 10:07:35,423 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-10 10:07:36,183 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-2] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 10:22:51,401 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2019-06-10 10:22:51,441 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2019-06-10 10:23:02,426 INFO com.beitech.test.BeitechTestApplication [main] Starting BeitechTestApplication on DESKTOP-54R6VJ6 with PID 15744 (C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test\target\classes started by Carlos in C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test)
+2019-06-10 10:23:02,433 INFO com.beitech.test.BeitechTestApplication [main] No active profile set, falling back to default profiles: default
+2019-06-10 10:23:05,418 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-06-10 10:23:05,420 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-10 10:23:05,651 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-06-10 10:23:05,949 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-06-10 10:23:08,185 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-06-10 10:23:08,293 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-10 10:23:08,410 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-10 10:23:08,413 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-06-10 10:23:08,632 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-10 10:23:08,965 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-10 10:23:09,323 WARN org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.beitech.test.model.CustomerProductId
+2019-06-10 10:23:09,325 WARN org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.beitech.test.model.CustomerProductId
+2019-06-10 10:23:11,920 INFO com.beitech.test.BeitechTestApplication [main] Started BeitechTestApplication in 10.436 seconds (JVM running for 11.897)
+2019-06-10 10:23:30,170 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-10 10:23:30,671 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-1] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 10:37:17,282 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-8080-exec-8] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5f5773ca (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-06-10 10:37:22,299 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-8080-exec-8] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2f6ed9d4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-06-10 10:37:27,312 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-8080-exec-8] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@10921989 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-06-10 10:37:32,325 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-8080-exec-8] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@174f828 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-06-10 10:37:37,333 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-8080-exec-8] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@530d3ed2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-06-10 10:37:39,669 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-8080-exec-1] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4cc69082 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-06-10 10:37:42,342 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-8080-exec-8] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@44f66661 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-06-10 10:37:42,347 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-8] SQL Error: 0, SQLState: 08003
+2019-06-10 10:37:42,349 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-8] HikariPool-1 - Connection is not available, request timed out after 30112ms.
+2019-06-10 10:37:42,351 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-8] No operations allowed after connection closed.
+2019-06-10 10:37:42,383 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-8] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection] with root cause
+com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:1274)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:575)
+	at com.mysql.cj.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:2504)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:550)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:165)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:179)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:155)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:35)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:106)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:136)
+	at org.hibernate.internal.SessionImpl.connection(SessionImpl.java:541)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:266)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle.doGetConnection(HibernateJpaDialect.java:424)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.beginTransaction(HibernateJpaDialect.java:173)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:401)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:378)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:475)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:289)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy91.findAll(Unknown Source)
+	at com.beitech.test.service.imp.CustomerServiceImp.consultAllCustomers(CustomerServiceImp.java:23)
+	at com.beitech.test.controller.CustomerController.consultAllCustomers(CustomerController.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-06-10 10:37:44,676 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-8080-exec-1] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@24a47c77 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-06-10 10:37:49,684 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-8080-exec-1] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@29ba1fce (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-06-10 10:37:54,694 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-8080-exec-1] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@48c4e1b3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-06-10 10:44:00,703 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2019-06-10 10:44:00,725 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2019-06-10 10:44:11,495 INFO com.beitech.test.BeitechTestApplication [main] Starting BeitechTestApplication on DESKTOP-54R6VJ6 with PID 15900 (C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test\target\classes started by Carlos in C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test)
+2019-06-10 10:44:11,531 INFO com.beitech.test.BeitechTestApplication [main] No active profile set, falling back to default profiles: default
+2019-06-10 10:44:15,055 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-06-10 10:44:15,057 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-10 10:44:15,550 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-06-10 10:44:15,952 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-06-10 10:44:18,678 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-06-10 10:44:18,775 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-10 10:44:18,921 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-10 10:44:18,924 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-06-10 10:44:19,162 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-10 10:44:19,517 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-10 10:44:19,948 WARN org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.beitech.test.model.CustomerProductId
+2019-06-10 10:44:19,948 WARN org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.beitech.test.model.CustomerProductId
+2019-06-10 10:44:22,702 INFO com.beitech.test.BeitechTestApplication [main] Started BeitechTestApplication in 12.15 seconds (JVM running for 13.953)
+2019-06-10 10:44:35,196 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-10 10:44:35,719 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-2] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 10:44:36,721 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-2] SQL Error: 1048, SQLState: 23000
+2019-06-10 10:44:36,736 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-2] Column 'creation_date' cannot be null
+2019-06-10 10:44:36,943 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Column 'creation_date' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:955)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1094)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1042)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1345)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1027)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:175)
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3077)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3667)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:645)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:282)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:332)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:289)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:196)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:127)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:192)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:135)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:62)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:800)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:785)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:350)
+	at com.sun.proxy.$Proxy89.persist(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:308)
+	at com.sun.proxy.$Proxy89.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:496)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:359)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:644)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:608)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$invoke$3(RepositoryFactorySupport.java:595)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:595)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy99.save(Unknown Source)
+	at com.beitech.test.service.imp.OrderServiceImp.createOrder(OrderServiceImp.java:69)
+	at com.beitech.test.service.imp.OrderServiceImp$$FastClassBySpringCGLIB$$4fe6a5cd.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.beitech.test.service.imp.OrderServiceImp$$EnhancerBySpringCGLIB$$cc564c94.createOrder(<generated>)
+	at com.beitech.test.controller.OrderController.createOrder(OrderController.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-06-10 10:44:55,125 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2019-06-10 10:44:55,149 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2019-06-10 10:45:24,200 INFO com.beitech.test.BeitechTestApplication [main] Starting BeitechTestApplication on DESKTOP-54R6VJ6 with PID 2012 (C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test\target\classes started by Carlos in C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test)
+2019-06-10 10:45:24,208 INFO com.beitech.test.BeitechTestApplication [main] No active profile set, falling back to default profiles: default
+2019-06-10 10:45:27,184 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-06-10 10:45:27,186 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-10 10:45:27,459 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-06-10 10:45:27,722 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-06-10 10:45:29,847 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-06-10 10:45:29,977 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-10 10:45:30,194 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-10 10:45:30,203 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-06-10 10:45:30,477 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-10 10:45:30,851 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-10 10:45:31,255 WARN org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.beitech.test.model.CustomerProductId
+2019-06-10 10:45:31,257 WARN org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.beitech.test.model.CustomerProductId
+2019-06-10 10:45:33,881 INFO com.beitech.test.BeitechTestApplication [main] Started BeitechTestApplication in 10.601 seconds (JVM running for 11.92)
+2019-06-10 10:45:42,393 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-10 10:45:42,917 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-1] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 10:47:55,028 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-8080-exec-10] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@73f485b2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-06-10 10:48:00,033 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-8080-exec-10] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7b4b4d04 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-06-10 10:48:05,042 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-8080-exec-10] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@78007765 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-06-10 10:48:10,138 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-8080-exec-10] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2349950a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-06-10 10:48:15,221 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-8080-exec-10] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@58ba9c22 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-06-10 12:08:32,209 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2019-06-10 12:08:32,276 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.

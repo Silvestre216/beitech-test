@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="ISO-8859-1">
+<title>Beitech Test</title>
+
+<script	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.js"></script>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+<script	src="js/beitechApp.js"></script>
+
+</head>
+<body ng-app="BeitechApp" ng-controller="CustomerController" class="form-group">
+	<header>
+		<h1>Consult Orders By Customers</h1>
+	</header>
+	<form ng-submit="submitCustomer()">
+		<div class="form-group row">
+			<label for="customerId" class="col-sm-2 col-form-label">Customer Name:</label>
+			<div class="col-sm-4">
+				<select class="form-control" name="customerId" ng-model="user.id">
+					<option ng-repeat="customer in listCustomers" ng-value="{{customer.customerId}}">{{customer.customerId}} - {{customer.name}}</option>
+				</select>
+			</div>
+		</div>
+		
+		<div class="form-group row" ng-if="mostrar">
+			<label for="startDate" class="col-sm-2 col-form-label">Start
+				Date:</label>
+			<div class="col-sm-4">
+				<input class="form-control" type="date" ng-model="user.start_date" readonly>
+			</div>
+		</div>
+		<div class="form-group row" ng-if="mostrar">
+			<label for="endDate" class="col-sm-2 col-form-label">End
+				Date:</label>
+			<div class="col-sm-4">
+				<input class="form-control" type="date" ng-model="user.end_date" readonly>
+			</div>
+		</div>
+		<input type="submit" value="Consult" class="blue-button btn btn-primary">
+					
+					
+					
+		
+	</form>
+	<br/>
+	
+	<table class="table" ng-if="mostrar">
+		<thead class="thead-dark">
+			<tr>
+				<th scope="col">Creation Date</th>
+				<th scope="col">Order Id</th>
+				<th scope="col">Total $</th>
+				<th scope="col">Delivery Address</th>
+				<th scope="col">Products</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="obj in listOrdersByCustomers">
+				
+				<td>{{ obj.order.creationDate }}</td>
+				<td>{{ obj.order.orderId }}</td>
+				<td>{{ obj.order.total }}</td>
+				<td>{{ obj.order.deliveryAddress }}</td>
+				<td><ul>
+						<li ng-repeat="product in obj.lOrderDetails"> {{product.quantity}} x {{product.productId.name}}</li>
+					</ul>
+				</td>
+
+			</tr>
+
+
+
+		</tbody>
+	</table>
+
+	<footer>Carlos Eduardo Suárez Silvestre - Prueba Beitech</footer>
+</body>
+</html>
