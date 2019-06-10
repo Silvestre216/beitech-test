@@ -693,3 +693,22 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'creation_date' cannot
 2019-06-10 10:48:15,221 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-8080-exec-10] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@58ba9c22 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
 2019-06-10 12:08:32,209 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
 2019-06-10 12:08:32,276 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2019-06-10 13:53:51,408 INFO com.beitech.test.BeitechTestApplication [main] Starting BeitechTestApplication on DESKTOP-54R6VJ6 with PID 12168 (C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test\target\classes started by Carlos in C:\Users\Carlos\Documents\workspace-sts-3.9.5.RELEASE\beitech-test)
+2019-06-10 13:53:51,420 INFO com.beitech.test.BeitechTestApplication [main] No active profile set, falling back to default profiles: default
+2019-06-10 13:53:55,093 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-06-10 13:53:55,096 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-10 13:53:55,495 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-06-10 13:53:56,495 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-06-10 13:53:58,903 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-06-10 13:53:59,187 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-10 13:53:59,506 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-10 13:53:59,546 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-06-10 13:54:00,136 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-10 13:54:00,658 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-10 13:54:01,306 WARN org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.beitech.test.model.CustomerProductId
+2019-06-10 13:54:01,308 WARN org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.beitech.test.model.CustomerProductId
+2019-06-10 13:54:05,097 INFO com.beitech.test.BeitechTestApplication [main] Started BeitechTestApplication in 15.16 seconds (JVM running for 16.956)
+2019-06-10 14:23:24,703 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-10 14:23:25,461 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-2] HHH000397: Using ASTQueryTranslatorFactory
